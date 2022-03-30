@@ -1,3 +1,50 @@
+body {
+background: #FFFFFF;
+color: #212121;
+}
+
+ul {
+list-style: none;
+}
+
+footer {
+background: #2F303A;
+}
+
+.site-logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.web {
+    color: #2196F3;
+}
+
+.site-nav a {
+    color: #212121;
+}
+.site-nav a:hover {
+color: #2196F3;;
+    }
+
+.auth-nav a {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.auth-nav a:hover {
+    color: #2196F3;
+}
 
 .buttom-order {
 font-style: normal;
@@ -38,6 +85,10 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+}
+
+.our-team {
+   background: #F5F4FA;
 }
 
 .наша-команда-заглавие {
