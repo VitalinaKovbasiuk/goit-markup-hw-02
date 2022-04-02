@@ -10,6 +10,8 @@ footer {
   background: #2f303a;
 }
 
+/* ======== HEADER ======== */
+
 .site-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -65,6 +67,22 @@ footer {
   color: #2196f3;
 }
 
+/* ======== /HEADER ======== */
+
+/* ======== SECTION HERO ======== */
+
+.hero-head {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/*color: #FFFFFF;*/
+}
+
 .buttom-order {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -80,6 +98,10 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
+/* ======== /SECTION HERO ======== */
+
+/* ======== SECTION PECULIARITIES ======== */
 
 .peculiarities-title {
   font-family: "Roboto", sans-serif;
@@ -102,6 +124,10 @@ footer {
   color: #757575;
 }
 
+/* ======== /SECTION PECULIARITIES ======== */
+
+/* ======== SECTION WHAT ARE WE DOING ======== */
+
 .section-head {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -112,6 +138,10 @@ footer {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+/* ======== /SECTION WHAT ARE WE DOING ======== */
+
+/* ======== SECTION OUR TEAM ======== */
 
 .our-team {
   background: #f5f4fa;
@@ -137,6 +167,10 @@ footer {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+/* ======== /SECTION OUR TEAM ======== */
+
+/* ======== FOOTER ======== */
 
 .studio {
   font-family: "Raleway", sans-serif;
@@ -172,3 +206,5 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
+/* ======== /FOOTER ======== */
