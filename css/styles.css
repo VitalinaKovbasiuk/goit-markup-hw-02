@@ -6,7 +6,8 @@
 
 body {
   background: #ffffff;
-  font-family: var(--main-font)
+  font-family: var(--main-font);
+  color: #212121;
 }
 
 .list {
@@ -20,9 +21,8 @@ footer {
 /* ======== HEADER ======== */
 
 .site-logo {
-  font-family: var(--secondary-font)
-  font-style: normal;
-  font-weight: 700;
+  font-family: var(--secondary-font);
+    font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -40,17 +40,16 @@ footer {
 
 .site-nav-link:hover,
 .site-nav-link:focus {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .site-nav-link {
-    font-style: normal;
-  font-weight: 500;
+      font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
-  text-decoration: none;
+    text-decoration: none;
+    color: #212121;
 }
 
 .auth-nav {
@@ -58,8 +57,7 @@ footer {
 }
 
 .auth-nav-link {
-    font-style: normal;
-  font-weight: 500;
+     font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -69,7 +67,7 @@ footer {
 
 .auth-nav-link:hover,
 .auth-nav-link:focus {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 /* ======== /HEADER ======== */
@@ -77,7 +75,6 @@ footer {
 /* ======== SECTION HERO ======== */
 
 .hero-head {
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -88,8 +85,7 @@ text-transform: uppercase;
 }
 
 .buttom-order {
-    font-style: normal;
-  font-weight: 700;
+      font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -100,6 +96,7 @@ text-transform: uppercase;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /* ======== /SECTION HERO ======== */
@@ -107,18 +104,15 @@ text-transform: uppercase;
 /* ======== SECTION PECULIARITIES ======== */
 
 .peculiarities-title {
-    font-style: normal;
-  font-weight: 700;
+      font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
-}
+  }
 
 .peculiarities-text {
-    font-style: normal;
-  font-weight: 400;
+      font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -130,14 +124,12 @@ text-transform: uppercase;
 /* ======== SECTION WHAT ARE WE DOING ======== */
 
 .section-head {
-    font-style: normal;
-  font-weight: 700;
+     font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-}
+  }
 
 /* ======== /SECTION WHAT ARE WE DOING ======== */
 
@@ -153,12 +145,10 @@ text-transform: uppercase;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-}
+  }
 
 .our-team-position {
-    font-style: normal;
-  font-weight: 400;
+      font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -171,8 +161,7 @@ text-transform: uppercase;
 /* ======== FOOTER ======== */
 
 .studio {
-    font-style: normal;
-  font-weight: 700;
+      font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -180,8 +169,7 @@ text-transform: uppercase;
 }
 
 .address-text {
-    font-style: normal;
-  font-weight: 400;
+      font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -193,8 +181,7 @@ text-transform: uppercase;
 }
 
 .address-link {
-    font-style: normal;
-  font-weight: 400;
+      font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
