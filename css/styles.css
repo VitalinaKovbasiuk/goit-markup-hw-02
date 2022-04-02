@@ -1,5 +1,12 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-color: #2196f3;
+}
+
 body {
   background: #ffffff;
+  font-family: var(--main-font)
 }
 
 .list {
@@ -13,7 +20,7 @@ footer {
 /* ======== HEADER ======== */
 
 .site-logo {
-  font-family: "Raleway";
+  font-family: var(--secondary-font)
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -33,12 +40,11 @@ footer {
 
 .site-nav-link:hover,
 .site-nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color)
 }
 
 .site-nav-link {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,8 +58,7 @@ footer {
 }
 
 .auth-nav-link {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,7 +69,7 @@ footer {
 
 .auth-nav-link:hover,
 .auth-nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color)
 }
 
 /* ======== /HEADER ======== */
@@ -72,7 +77,6 @@ footer {
 /* ======== SECTION HERO ======== */
 
 .hero-head {
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -84,8 +88,7 @@ text-transform: uppercase;
 }
 
 .buttom-order {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -104,8 +107,7 @@ text-transform: uppercase;
 /* ======== SECTION PECULIARITIES ======== */
 
 .peculiarities-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -115,8 +117,7 @@ text-transform: uppercase;
 }
 
 .peculiarities-text {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -129,8 +130,7 @@ text-transform: uppercase;
 /* ======== SECTION WHAT ARE WE DOING ======== */
 
 .section-head {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -148,8 +148,7 @@ text-transform: uppercase;
 }
 
 .our-team-full-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+    font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -158,8 +157,7 @@ text-transform: uppercase;
 }
 
 .our-team-position {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -173,8 +171,7 @@ text-transform: uppercase;
 /* ======== FOOTER ======== */
 
 .studio {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -183,8 +180,7 @@ text-transform: uppercase;
 }
 
 .address-text {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -197,8 +193,7 @@ text-transform: uppercase;
 }
 
 .address-link {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+    font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
