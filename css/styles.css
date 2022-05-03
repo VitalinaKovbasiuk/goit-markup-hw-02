@@ -1,7 +1,7 @@
 :root {
-    --main-font: "Roboto", sans-serif;
-    --secondary-font: "Raleway", sans-serif;
-    --accent-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
 }
 
 body {
@@ -22,7 +22,7 @@ footer {
 
 .site-logo {
   font-family: var(--secondary-font);
-    font-weight: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -44,12 +44,12 @@ footer {
 }
 
 .site-nav-link {
-      font-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #212121;
+  text-decoration: none;
+  color: #212121;
 }
 
 .auth-nav {
@@ -57,7 +57,7 @@ footer {
 }
 
 .auth-nav-link {
-     font-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -75,17 +75,17 @@ footer {
 /* ======== SECTION HERO ======== */
 
 .hero-head {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-/*color: #FFFFFF;*/
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #FFFFFF;*/
 }
 
 .buttom-order {
-      font-weight: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -104,15 +104,16 @@ text-transform: uppercase;
 /* ======== SECTION PECULIARITIES ======== */
 
 .peculiarities-title {
-      font-weight: 700;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  }
+  
+}
 
 .peculiarities-text {
-      font-weight: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -124,12 +125,12 @@ text-transform: uppercase;
 /* ======== SECTION WHAT ARE WE DOING ======== */
 
 .section-head {
-     font-weight: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  }
+}
 
 /* ======== /SECTION WHAT ARE WE DOING ======== */
 
@@ -140,15 +141,15 @@ text-transform: uppercase;
 }
 
 .our-team-full-name {
-    font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  }
+}
 
 .our-team-position {
-      font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -162,32 +163,33 @@ text-transform: uppercase;
 
 .porfolio-navigation-buttom {
   font-family: var(--main-font);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
-  background: #F5F4FA;
-border-radius: 4px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .porfolio-navigation-buttom:hover,
 .porfolio-navigation-buttom:focus {
- color: #FFFFFF;
- background: #2196F3;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .project-name {
-font-family: var(--main-font);
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-text-decoration: none;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  text-decoration: none;
 }
 
 .portfolio-list-link {
@@ -196,12 +198,12 @@ text-decoration: none;
 
 .project-class {
   font-family: var(--main-font);
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /* ======== /SECTION PORTFOLIO ======== */
@@ -209,7 +211,7 @@ color: #757575;
 /* ======== FOOTER ======== */
 
 .studio {
-      font-weight: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -217,8 +219,8 @@ color: #757575;
 }
 
 .address-text {
-      font-weight: 400;
-      font-style: normal;
+  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -230,8 +232,8 @@ color: #757575;
 }
 
 .address-link {
-      font-weight: 400;
-      font-style: normal;
+  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
